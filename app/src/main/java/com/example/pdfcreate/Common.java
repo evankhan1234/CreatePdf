@@ -11,7 +11,7 @@ public class Common {
 
 
         if (!dir.exists())
-            dir.mkdir();
+            dir. getParentFile().mkdir();
         return dir.getPath()+File.separator;
     }
 }
