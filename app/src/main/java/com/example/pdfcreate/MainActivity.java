@@ -90,6 +90,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
             final PDFTest pdfTest= new PDFTest(MainActivity.this);
+            Bengali bengali=new Bengali(MainActivity.this);
+
             pdfTest.getIntentPDF();
         final byte[] bFile = new byte[0];
             final Bitmap b=pdfTest.getBitmap();
